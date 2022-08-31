@@ -6,6 +6,12 @@ body{
 html{
     font-size: 16px;
 }
+.img-principal{
+    
+        padding: .3em;
+        margin-left: 1em;
+
+}
 #cuerpo{
     display: inline-block;
    max-width:100%;
