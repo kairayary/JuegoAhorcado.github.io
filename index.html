@@ -13,24 +13,32 @@
     <header class="principal">
 
         <img src="./img/logo.png" class="img-principal" alt="logo">
-          <h1>Juego Ahorcado</h1>
+        <h1>Juego Ahorcado</h1>
     </header>
+
     <div class="cuerpoAhorcado">
-        <img id="cuerpo" alt="hombreAhorcado" />
+        <img id="cuerpo" />
     </div>
 
     <div class="acierto">
-       
+
     </div>
 
     <div class="errado">
-     
-    </div>
-    <div class="seleccion">
-        <input type="button" class="boton1" value="NUEVO JUEGO" />
-        <input type="button" class="boton2" value="DESISTIR" />
 
     </div>
+    <div class="seleccion" action="javascript:void(0)">
+
+        <input type="button" class="boton1" value="NUEVO JUEGO" onclick="nuevoJuego()" />
+        <input type="button" class="boton2" value="DESISTIR" onclick="nuevoJuego()" />
+
+    </div>
+    <footer>
+        <div class="info-footer">
+            <h2>Kaira Abréu</h2>
+            <p>&#169 Copyright</p>
+        </div>
+    </footer>
     <script src="./app.js"></script>
 </body>
 
