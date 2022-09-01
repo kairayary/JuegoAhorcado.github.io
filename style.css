@@ -1,39 +1,48 @@
-body{
+body {
     background-color: rgb(224, 223, 231);
     margin: 0px;
     padding: 0px;
 }
-html{
+
+html {
     font-size: 16px;
 }
-.img-principal{
-    
-        padding: .3em;
-        margin-left: 1em;
+
+.principal {
+    display: flex;
+    align-items: center;
+}
+
+.img-principal {
+
+    padding: .3em;
+    margin-left: 1em;
 
 }
-#cuerpo{
+
+#cuerpo {
     display: inline-block;
-   max-width:100%;
-   max-height: 100%;
-   width: 20.7rem;
-   height: 19.7rem;
-   /* border: solid 1px  #777;
+    max-width: 100%;
+    max-height: 100%;
+    width: 20.7rem;
+    height: 19.7rem;
+    /* border: solid 1px  #777;
    background-image: #ddd; */
 }
 
-.cuerpoAhorcado{
+.cuerpoAhorcado {
     width: 100vw;
     text-align: center;
-    margin-top: 6.5rem;
-    margin-bottom: 6rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem
 }
 
-.acierto{
+.acierto {
     text-align: center;
     color: #0A3871;
 }
-.letraA{
+
+.letraA {
     display: inline-block;
     width: 4.5rem;
     height: 4.5rem;
@@ -41,43 +50,71 @@ html{
     text-align: center;
     font-size: 1.8rem;
     color: #0A3871;
-    border-bottom: solid 1px  #0A3871;
-    margin-left:0.4rem ;
+    border-bottom: solid 1px #0A3871;
+    margin-left: 0.4rem;
     line-height: 4.6rem;
 }
-.errado{
+
+.errado {
     text-align: center;
     margin-top: 1rem;
     color: #495057;
     margin-left: 1rem;
 }
 
-.letraE{
-margin-left: 1.3rem;
+.letraE {
+    margin-left: 1.3rem;
 }
-.seleccion{
+
+.seleccion {
     text-align: center;
     margin-top: 3rem;
-    
 
 
-}
-.boton1{
-width: 15rem;
-padding: 1rem;
-border-radius: 1rem;
-border: solid 1px #031c3b;
-cursor: pointer;
-background-color: #0A3871;
-color: white;
 
 }
-.boton2{
+
+.boton1 {
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: solid 1px #031c3b;
+    cursor: pointer;
+    background-color: #0A3871;
+    color: white;
+
+}
+
+.boton2 {
     width: 15rem;
     padding: 1rem;
     border-radius: 1rem;
     border: solid 1px #0a3871;
     cursor: pointer;
     background: inherit;
-    color:#031c3b ;
-    }
+    color: #031c3b;
+}
+
+.info-footer {
+    width: 100%;
+    height: 100px;
+    color: bisque;
+    text-shadow: 1px 3px 1px black;
+    justify-content: center;
+    background-color: #0a3871;
+    
+
+}
+
+.info-footer h2 {
+    padding-top: 1rem;
+    margin-top: 4%;
+    margin-left: 44%;
+    color: bisque;
+    text-shadow: 1px 3px 1px black;
+}
+
+
+.info-footer p {
+    margin-left: 46%;
+}
